@@ -1,0 +1,21 @@
+.container{
+    min-height: 100vh;
+    background-color: green;
+    background: url(./assets/children_park.jpg) no-repeat;
+    background-size: cover;
+}
+.animalC{
+    display: flex;
+    justify-content: center;
+   
+}
+.start,.successMessage,.thingPair,.level{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+@media only screen and(max-width: 768px){
+    .container{
+        width:100%;
+    }
+}

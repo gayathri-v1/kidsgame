@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Yatra+One&display=swap');
+
+.animalContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding:30px;
+    border: 3px solid black;
+    margin-top: 150px;
+    font-family: "Butterfly Kids", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.shadow, .animal{
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+}
+img{
+    width:200px;
+    height:100px;
+}
+.shadowItem {
+    position: relative;
+    width: 200px; 
+    height: 100px;
+  }
+  
+  .animalShadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .animal_heading{
+    text-align: center;
+    padding:20px;
+  }
+@media (max-width: 768px){
+  .shadow, .animal{
+    display: flex;
+    flex-direction: column;
+  }
+  .animalContainer{
+    display: flex;
+    flex-direction: row;
+  }
+}

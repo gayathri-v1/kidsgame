@@ -1,0 +1,15 @@
+.levelContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    margin-top: 170px;
+}
+.levelContainer img{
+    height:80px;
+    width:80px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.levelContainer img:hover{
+transform: scale(1.1)
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Yatra+One&display=swap');
+.game2Container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding:30px;
+    border: 3px solid black;
+    margin-top: 150px;
+    font-family: "Butterfly Kids", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.pairs, .things{
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+}
+.pairs{
+    margin-top: 50px;
+}
+img{
+    width:200px;
+    height:100px;
+}
+ .thingItem {
+    position: relative;
+    width: 200px; 
+    height: 100px;
+  } 
+  .droppped{
+    border:1px solid black;
+  }
+ 
+  .pairsHeading{
+    text-align: center;
+    padding:20px;
+  }
+
+  @media (max-width:768px){
+    .game2Container{
+      display: flex;
+      flex-direction: row;
+    }
+    .pairs, .things{
+      display: flex;
+      flex-direction: column;
+  }
+}
