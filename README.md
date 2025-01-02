@@ -1,8 +1,11 @@
-# React + Vite
+Fun Time application
+Built using React, Vite, Javascript, CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+How to run in the local system?
+1.Download the zip file of the code
+2.Extract the files in the folder
+3.Open the folder via VS code
+4. Open the terminal and the run the command
+    a. npm install (this installs the node_module folder)
+    b. npm run dev (you will get a link http://localhost:5173/)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
