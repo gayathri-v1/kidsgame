@@ -13,6 +13,7 @@ import bad from '../assets/audio/bad.mp3';
 import win from '../assets/audio/win.mp3';
 import '../style/things.css'
 import '../App.css'
+import { useNavigate } from 'react-router-dom'
 
 const Things = () => {
 
@@ -36,6 +37,7 @@ const Things = () => {
     const [draggedPair, setDraggedPair]= useState(null);
       const [matches, setMatches] = useState([]);
       const [droppedImages, setDroppedImages]= useState({});
+      const navigate= useNavigate();
       useEffect(()=>{
             setThings(shuffleArray(itemList1));
             setPairs(shuffleArray(itemList2));
@@ -58,7 +60,7 @@ const Things = () => {
                     const goodAudio= new Audio(good);
                     goodAudio.play();
                 }
-                return updatedMatches;
+                return updatedMatch;
             });
             const droppedItem= pairs.find((pair)=>pair.id===draggedPair);
             setDroppedImages((prev)=>({
